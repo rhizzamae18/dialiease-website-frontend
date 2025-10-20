@@ -13,7 +13,7 @@ import {
 } from "react-icons/fa";
 import { FiAlertCircle } from "react-icons/fi";
 import logoImage from "../assets/images/logo.png";
-import staffpic from "../assets/images/staffpic.png";
+// import staffpic from "../assets/images/staffpic.png";
 
 const API_BASE_URL =
   import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
@@ -712,7 +712,7 @@ function ForgotPassword() {
                 transition={{ delay: 0.4, duration: 0.6 }}
                 whileHover={{ scale: 1.01 }}
               >
-                <img
+                {/* <img
                   src={staffpic}
                   alt="Medical staff using DialiEase"
                   style={{
@@ -720,7 +720,7 @@ function ForgotPassword() {
                     height: "auto",
                     display: "block",
                   }}
-                />
+                /> */}
               </motion.div>
             )}
           </motion.div>
